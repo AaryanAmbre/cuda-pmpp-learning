@@ -1,0 +1,37 @@
+# ─── Executables ──────────────────────────────────────────────────────────────
+*.out
+*.exe
+*.bin
+a.out
+
+# ─── Build artifacts ──────────────────────────────────────────────────────────
+# Ignore compiled output inside build/ but keep the directory tracked
+*/build/*
+!*/build/.gitkeep
+*.o
+*.obj
+*.d
+*.ptx
+*.cubin
+*.fatbin
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ─── NVIDIA Nsight / profiling reports ───────────────────────────────────────
+# Ignore report files but keep the nsys_reports/ directory tracked
+*.nsys-rep
+*.qdrep
+*.sqlite
+*.nvvp
+*.ncu-rep
+
+# ─── System / editor files ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
