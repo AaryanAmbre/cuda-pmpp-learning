@@ -48,7 +48,7 @@ Implement a basic parallel vector addition kernel to understand the fundamental 
 
 | Metric              | Value |
 | ------------------- | ----- |
-| Kernel duration     | –     |
+| Kernel duration     | 4.0063 ms|
 | Memory transfer H→D | –     |
 | Memory transfer D→H | –     |
 | Occupancy           | –     |
